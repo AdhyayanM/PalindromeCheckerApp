@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class PalindromeCheckerApp {
+public class PalindroneCheckerApp {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Welcome to Palindrome Checker App Management System");
