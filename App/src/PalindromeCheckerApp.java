@@ -2,6 +2,22 @@ import java.util.Scanner;
 public class PalindromeCheckerApp {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
+<<<<<<< HEAD
+        String input = "radar";
+        char[] chars = input.toCharArray();
+        int start = 0;
+        int end = chars.length - 1;
+        boolean isPalindrome = false;
+        while(start<end){
+            if(chars[start] == chars[end]){
+                isPalindrome = true;
+            }
+            start++;
+            end--;
+        }
+        System.out.println("Input: " + input);
+        System.out.println("is Palindrome? " + isPalindrome);
+=======
         System.out.println("Welcome to Palindrome Checker App Management System");
 
         System.out.println("Enter string to check: ");
@@ -27,5 +43,6 @@ public class PalindromeCheckerApp {
         else
             System.out.println("Not Palindrome");
 
+>>>>>>> 940ac01a22a0d8d526b10e09ad24c86afed41c6c
     }
 }
